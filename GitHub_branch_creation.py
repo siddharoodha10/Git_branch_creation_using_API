@@ -35,5 +35,5 @@ class GitHub:
 
 
 #Executation starts from here
-g = GitHub()
+g = GitHub('user_name','token','owner/repo_name ')
 g.create_new_branch()
